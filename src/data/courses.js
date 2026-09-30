@@ -1,0 +1,102 @@
+export const COURSES = [
+  {
+    id: 'python',
+    title: 'Python Programming',
+    shortName: 'Python',
+    iconName: 'Code2',
+    description: 'Learn Python fundamentals through structured lessons, interactive code practice, and quizzes.',
+    category: 'Backend & Data',
+    totalLevels: 4,
+    color: '#38bdf8',
+    gradient: 'linear-gradient(135deg, #0284c7 0%, #38bdf8 100%)',
+    bgLight: 'rgba(56, 189, 248, 0.08)',
+    levels: [
+      {
+        id: 1,
+        title: 'Basics',
+        description: 'Master Python syntax, variables, basic data types, and IO operations.',
+        lessonCount: 4,
+        quizId: 'py-quiz-1',
+        practiceId: 'py-prac-1',
+        requiredXp: 0,
+      },
+      {
+        id: 2,
+        title: 'Conditions',
+        description: 'Control program flow using if, elif, else, and boolean logic.',
+        lessonCount: 4,
+        quizId: 'py-quiz-2',
+        practiceId: 'py-prac-2',
+        requiredXp: 150,
+      },
+      {
+        id: 3,
+        title: 'Loops',
+        description: 'Iterate effortlessly over data using for loops, while loops, and range().',
+        lessonCount: 4,
+        quizId: 'py-quiz-3',
+        practiceId: 'py-prac-3',
+        requiredXp: 350,
+      },
+      {
+        id: 4,
+        title: 'Functions',
+        description: 'Write reusable, modular code with parameters and return values.',
+        lessonCount: 4,
+        quizId: 'py-quiz-4',
+        practiceId: 'py-prac-4',
+        requiredXp: 600,
+      }
+    ]
+  },
+  {
+    id: 'c',
+    title: 'C Programming',
+    shortName: 'C',
+    iconName: 'Cpu',
+    description: 'Learn foundational C programming concepts including syntax, pointers, memory, loops, and functions.',
+    category: 'Systems Programming',
+    totalLevels: 4,
+    color: '#6366f1',
+    gradient: 'linear-gradient(135deg, #4338ca 0%, #6366f1 100%)',
+    bgLight: 'rgba(99, 102, 241, 0.08)',
+    levels: [
+      {
+        id: 1,
+        title: 'Basics',
+        description: 'Understand C structure, compilation, variables, printf, and scanf.',
+        lessonCount: 5,
+        quizId: 'c-quiz-1',
+        practiceId: 'c-prac-1',
+        requiredXp: 0,
+      },
+      {
+        id: 2,
+        title: 'Conditions',
+        description: 'Make decisions using if, else, else-if structures and relational operators.',
+        lessonCount: 4,
+        quizId: 'c-quiz-2',
+        practiceId: 'c-prac-2',
+        requiredXp: 150,
+      },
+      {
+        id: 3,
+        title: 'Loops',
+        description: 'Execute repetitive tasks with for, while, and do-while loops.',
+        lessonCount: 3,
+        quizId: 'c-quiz-3',
+        practiceId: 'c-prac-3',
+        requiredXp: 350,
+      },
+      {
+        id: 4,
+        title: 'Functions',
+        description: 'Decompose code into modular functions with prototypes and parameters.',
+        lessonCount: 3,
+        quizId: 'c-quiz-4',
+        practiceId: 'c-prac-4',
+        requiredXp: 600,
+      }
+    ]
+  }
+];
